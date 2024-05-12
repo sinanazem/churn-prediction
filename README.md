@@ -1,1 +1,1 @@
-# churn-prediction
+# End-to-End Machine Learning Project: Churn Prediction
