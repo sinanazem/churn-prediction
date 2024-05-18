@@ -14,7 +14,7 @@ from catboost import CatBoostClassifier, Pool
 
 
 
-data_path = "../data/WA_Fn-UseC_-Telco-Customer-Churn.csv"
+data_path = "/mnt/c/Users/user/OneDrive/Desktop/churn-prediction/data/WA_Fn-UseC_-Telco-Customer-Churn.csv"
 df = pd.read_csv(data_path)
 
 # Convert TotalCharges to numeric, filling NaN values
@@ -70,7 +70,7 @@ result = pd.DataFrame({'Accuracy': accuracy, 'Recall': recall, 'Roc_Auc': roc_au
 print(result)
 
 
-model_dir = "../model"
+model_dir = "/mnt/c/Users/user/OneDrive/Desktop/churn-prediction/model"
 if not os.path.exists(model_dir):
     os.makedirs(model_dir)
 
