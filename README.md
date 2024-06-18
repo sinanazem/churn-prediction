@@ -1,6 +1,5 @@
 # Churn Prediction
 <img src="https://blog.usetada.com/hubfs/Customer%20Churn%20and%20How%20to%20Stop%20It.png#keepProtocol">
-Telco Churn Prediction: A Journey through ML, Streamlit, FastAPI, and Docker  
 This project aims to provide a solution for predicting customer churn in a telecommunications company by integrating a range of technologies. First, we will develop a machine learning model using Catboost by studying churn data. We will then use Streamlit to present the outputs of this model through a user-friendly interface. Following this, we will build an API using FastAPI to provide real-time predictions, and finally automate the deployment and scaling of the entire solution using Docker.  
 
 ### Project Steps:  
