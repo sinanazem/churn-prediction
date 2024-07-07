@@ -11,7 +11,7 @@ import joblib
 MODEL_PATH = "/mnt/c/Users/user/OneDrive/Desktop/churn-prediction/model/catboost_model.cbm" 
 DATA_PATH = "../data/churn_data_regulated.parquet"
 
-st.set_page_config(page_title="Churn Project")
+# st.set_page_config(page_title="Churn Project")
 
 @st.cache_resource
 def load_data():
